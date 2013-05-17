@@ -92,11 +92,11 @@ int main(string[] args) {
     }
 
     //Parse options:
-    int repetitions = 1;
-    bool discardFirst = false;
+    int repetitions = 3;//1;
+    bool discardFirst = true;//false;
     bool quiet = false;
-    bool printTimes = false;
-    bool printHistogram = false;
+    bool printTimes = true;//false;
+    bool printHistogram = true;//false;
     try {
         getopt(args,
             std.getopt.config.caseSensitive,
